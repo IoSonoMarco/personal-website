@@ -3,13 +3,13 @@
     z-index: -1;
     width: 100%;
     overflow: hidden;
+    height: 800px;
 }
 
 .background {
-    background-color: red;
     background-color: #222831;
-    height: 700px;
     width: 150%;
+    height: 100%;
     transform: rotate(-10deg)
                translate(-70px, -260px);
 }
@@ -19,11 +19,11 @@
     background-color: white;
     border-radius: 10px;
     border: solid 3px #00ADB5;
-    width: 40%;
+    width: 35%;
     min-width: 300px;
     margin: auto;
-    position: relative;
-    top: -400px; 
+    position: relative;  
+    top: -620px; 
 }
 
 .presentation  > h1 {
